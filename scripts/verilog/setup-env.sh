@@ -3,8 +3,8 @@
 # Copyright (c) 2022-2025 Gonzalo Larumbe
 # All rights reserved.
 
-PKGS_TO_INSTALL=(global universal-ctags python3-pygments silversearcher-ag libverilog-perl verilator iverilog nodejs npm)
-EXPECTED_INSTALLED_BINARIES=(python global gtags ctags ag vhier verilator iverilog nodejs npm)
+PKGS_TO_INSTALL=(global universal-ctags python3-pygments libverilog-perl verilator iverilog nodejs npm)
+EXPECTED_INSTALLED_BINARIES=(python global gtags ctags vhier verilator iverilog nodejs npm)
 
 sudo apt-get update
 
